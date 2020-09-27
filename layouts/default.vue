@@ -39,7 +39,7 @@
       </v-container>
     </v-content>
     <v-footer :fixed="fixed" app color="#364857" dark>
-      <span>&copy; 2019</span>
+      <span>{{ new Date().getFullYear() }} — monja lab</span>
     </v-footer>
   </v-app>
 </template>

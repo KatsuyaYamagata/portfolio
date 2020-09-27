@@ -307,7 +307,7 @@ export default {
       },
       {
         title: "ポートフォリオサイト",
-        url: "http://google.com",
+        url: "https://katsuyayamagata-portfolio.web.app/",
         src: "/portfolio.png",
         desc: "本ポートフォリオサイトはNuxtJSで構築しました。",
         tags: ["Nuxt.js"]
