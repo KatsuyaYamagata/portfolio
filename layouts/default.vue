@@ -4,6 +4,8 @@
       <v-tabs fixed-tabs centered>
         <v-tab v-scroll-to="'#top'">Top</v-tab>
         <v-tab v-scroll-to="'#about'">About</v-tab>
+        <v-tab v-scroll-to="'#works'">Works</v-tab>
+        <!--
         <v-menu open-on-hover top offset-y>
           <template v-slot:activator="{ on, attrs }">
             <v-tab v-bind="attrs" v-on="on">Works</v-tab>
@@ -27,7 +29,8 @@
             </v-list-item>
           </v-list>
         </v-menu>
-        <v-tab>Skill</v-tab>
+        -->
+        <v-tab v-scroll-to="'#skill'">Skill</v-tab>
       </v-tabs>
     </v-app-bar>
     <v-content>

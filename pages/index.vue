@@ -4,9 +4,7 @@
       <section id="top" class="top-wrapper">
         <p class="text-left text-h2">Welcome to Katsuya Yamagata’s Portfolio Site</p>
       </section>
-      <section id="about">
       <about />
-      </section>
       <works />
       <skill />
     </v-flex>

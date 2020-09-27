@@ -2,7 +2,7 @@
   <v-container class="works-wrapper">
     <v-row>
       <v-col cols="12">
-        <p class="text-left text-h2">Works</p>
+        <p class="text-left text-h2" id="works">Works</p>
       </v-col>
       <v-col cols="12">
         <p class="text-left text-h4">Sounds</p>
@@ -103,12 +103,38 @@
         </v-card>
       </v-col>
     </v-row>
+    <v-row>
+      <v-col cols="12">
+        <p class="text-left text-h4 mt-6">Research</p>
+        <p class="text-left">大学院時代の研究を紹介します。</p>
+      </v-col>
+    </v-row>
+    <v-row>
+      <v-col cols="4">
+        <v-card class="mx-auto" max-width="500">
+          <v-img class="white--text align-end" height="300px" src="/research.png" />
+          <v-card-title class="text-left">「EVらしい」音デザイン指針の構築</v-card-title>
+          <v-card-text
+            class="text-left text--primary"
+          >自動車メーカーとの共同研究により電気自動車の音デザインを2年間研究しました。電気自動車という「未知なる音」を視覚的な印象からアプローチし、デザイナーによる感覚的な音デザインではなくエンジニアが体系的にデザインできる指針を構築しました。2年間で音響学会4回、国際学会1回の計5回の学会発表を経験しました。</v-card-text>
+          <v-card-actions>
+            <v-btn text color="#F75940" link nuxt href="https://drive.google.com/file/d/1lzR_Ht-M0loOCpFOKPQqFqLocwMuzAOx/view" target='_blank'>
+              全文
+            </v-btn>
+            <v-btn text color="#F75940" link nuxt href="https://drive.google.com/file/d/1LVLvef19DzfXu8Qu0qGaUiQhBLu6Cyy0/view?usp=sharing" target='_blank'>
+              要旨
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
 
 <style>
 .works-wrapper {
   text-align: center;
+  padding: 0 0 20vh 0;
 }
 .v-card__subtitle,
 .v-card__text {
@@ -274,6 +300,7 @@ export default {
       {
         title: "Sound Generator",
         url: "https://sound-generator-5cd79.web.app/",
+        src: "/soundGenerator.png",
         desc:
           "「音響の初学者が音の仕組みを身をもって体験できる」をコンセプトに、正弦波・矩形波などの単純な波形を組み合わせたときにどのような波形になるかを可視化するために構築しました。Web Audio APIを用いて、音の生成、波形表示、音の合成を構築しました。",
         tags: ["Nuxt.js", "Web Audio API", "Firebase"]

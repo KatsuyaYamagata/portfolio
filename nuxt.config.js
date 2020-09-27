@@ -43,12 +43,12 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    'nuxt-webfontloader'
+    //'nuxt-webfontloader'
   ],
   webfontloader: {
-    google: {
-      families: ['Kosugi+Maru']
-    }
+    //google: {
+    //  families: ['Kosugi+Maru']
+    //}
   },
   /*
   ** vuetify module configuration

@@ -2,7 +2,7 @@
   <v-container class="skill-wrapper">
     <v-row>
       <v-col cols="12">
-        <p class="text-left text-h2">Skill</p>
+        <p class="text-left text-h2" id="skill">Skill</p>
       </v-col>
     </v-row>
     <v-row>

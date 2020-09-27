@@ -1,6 +1,4 @@
-# my_portfolio
-
-> My ultimate Nuxt.js project
+# Katsuya Yamagata's portfolio
 
 ## Build Setup
 
